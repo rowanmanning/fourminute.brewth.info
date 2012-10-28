@@ -1,4 +1,183 @@
 
+/*
+Basics: Layout
+==============
+*/
+
 body {
+    padding: 40px;
+}
+
+
+/*
+Basics: Typography
+==================
+*/
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 25px;
+    line-height: 2.5rem;
+}
+
+dd, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h1 {
+    font-size: 45px;
+    font-size: 4.5rem;
+    line-height: 50px;
+    line-height: 5rem;
+}
+h2 {
+    font-size: 40px;
+    font-size: 4rem;
+    line-height: 45px;
+    line-height: 4.5rem;
+}
+h3 {
+    font-size: 35px;
+    font-size: 3.5rem;
+    line-height: 40px;
+    line-height: 4rem;
+}
+h4 {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 35px;
+    line-height: 3.5rem;
+}
+h5 {
+    font-size: 25px;
+    font-size: 2.5rem;
+    line-height: 30px;
+    line-height: 3rem;
+}
+h6 {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 25px;
+    line-height: 2.5rem;
+}
+
+
+/*
+Basics: Lists
+=============
+*/
+
+ol, ul {
+    padding-left: 40px;
+    padding-left: 4rem;
+}
+ol ol, ol ul, ul ol, ul ul {
+    margin-top: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-left: 2rem;
+}
+li, dt {
+    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0;
+}
+
+
+/*
+Object: Nav
+===========
+*/
+
+.nav {
+    margin: 0;
+    padding: 0;
+}
+.nav .item {
+    display: block;
+    margin: 0;
+}
+@media all and (min-width: 700px) {
+    .nav .item {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+    }
+}
+
+
+/*
+Object: Nav-Links
+=================
+*/
+
+.nav-links .link {
+    display: block;
+}
+
+
+/*
+Site: Navigation
+================
+*/
+
+.navigation {
+    margin-top: 100px;
+    margin-top: 10rem;
+}
+.navigation .link, .top {
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     padding: 20px;
+    background-color: #eee;
+    text-decoration: none;
+}
+.navigation .link:hover, .top:hover {
+    background-color: #ddd;
+}
+.top {
+    padding: 10px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+@media all and (min-width: 700px) {
+    .navigation .nav {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+    }
+}
+
+
+
+
+/*
+Site: Sections
+==============
+*/
+
+.section {
+    margin-top: 100px;
+    margin-top: 10rem;
+}
+@media all and (min-width: 700px) {
+    .section {
+        max-width: 80rem;
+    }
 }
