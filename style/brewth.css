@@ -1,11 +1,12 @@
 
 /*
-Basics: Layout
-==============
+Basics: Layout/Style
+====================
 */
 
 body {
     padding: 20px;
+    background: #fcf2e8 url('assets/noise-100-80-5.png') repeat;
 }
 @media all and (min-width: 700px) {
     body {
@@ -23,11 +24,25 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-size: 20px;
-    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 25px;
     line-height: 2.5rem;
-    color: #222;
+    color: #4e3d2d;
+}
+a {
+    color: #d47f1c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #ad8867;
+}
+a:active, a:focus {
+    outline: dotted 1px #d47f1c;
 }
 
 dd, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
@@ -37,6 +52,7 @@ dd, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', serif;
     font-weight: normal;
 }
 h1 {
@@ -80,7 +96,7 @@ h6 {
     font-size: 1.6rem;
     line-height: 25px;
     line-height: 2.5rem;
-    color: #666;
+    color: #715b46;
 }
 
 
@@ -95,14 +111,14 @@ ol, ul {
 }
 ol ol, ol ul, ul ol, ul ul {
     margin-top: 5px;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
     margin-bottom: 0;
     padding-left: 20px;
     padding-left: 2rem;
 }
 li, dt {
     margin-bottom: 5px;
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
 }
 dt {
     font-weight: bold;
@@ -130,6 +146,8 @@ Object: Nav
         display: inline-block;
         *display: inline;
         *zoom: 1;
+        margin-right: 5px;
+        margin-right: .5rem;
     }
 }
 
@@ -173,18 +191,24 @@ Site: Navigation
 .navigation {
     max-width: 100%;
 }
-.navigation .link, .top {
+.navigation .link, .navigation .link:visited, .top, .top:visited {
     margin-bottom: 15px;
     margin-bottom: 1.5rem;
     padding: 20px;
-    background-color: #eee;
+    padding: 2rem;
+    background-color: rgba(211, 164, 122, .3);
+    border-radius: 10px;
+    border-radius: 1rem;
     text-decoration: none;
+    color: #4e3d2d;
 }
 .navigation .link:hover, .top:hover {
-    background-color: #ddd;
+    background-color: rgba(211, 164, 122, .6);
+    text-decoration: none;
 }
 .top {
     padding: 10px;
+    padding: 1rem;
     display: inline-block;
     *display: inline;
     *zoom: 1;
