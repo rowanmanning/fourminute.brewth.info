@@ -196,6 +196,7 @@ Site: Navigation
     margin-bottom: 1.5rem;
     padding: 20px;
     padding: 2rem;
+    background-color: rgb(238, 215, 195);
     background-color: rgba(211, 164, 122, .3);
     border-radius: 10px;
     border-radius: 1rem;
@@ -203,6 +204,7 @@ Site: Navigation
     color: #4e3d2d;
 }
 .navigation .link:hover, .top:hover {
+    background-color: rgb(236, 193, 162);
     background-color: rgba(211, 164, 122, .6);
     text-decoration: none;
 }
