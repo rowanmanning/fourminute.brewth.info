@@ -22,6 +22,7 @@ body {
     font-size: 2rem;
     line-height: 25px;
     line-height: 2.5rem;
+    color: #222;
 }
 
 dd, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
@@ -68,6 +69,13 @@ h6 {
     font-size: 2rem;
     line-height: 25px;
     line-height: 2.5rem;
+}
+.secondary {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 25px;
+    line-height: 2.5rem;
+    color: #666;
 }
 
 
@@ -165,8 +173,6 @@ Site: Navigation
 }
 
 
-
-
 /*
 Site: Sections
 ==============
@@ -180,4 +186,14 @@ Site: Sections
     .section {
         max-width: 80rem;
     }
+}
+
+
+/*
+Site: Ingredients
+=================
+*/
+
+.ingredients .detail {
+    display: block;
 }
