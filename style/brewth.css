@@ -5,7 +5,12 @@ Basics: Layout
 */
 
 body {
-    padding: 40px;
+    padding: 20px;
+}
+@media all and (min-width: 700px) {
+    body {
+        padding: 40px;
+    }
 }
 
 
