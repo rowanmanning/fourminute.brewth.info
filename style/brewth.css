@@ -50,6 +50,10 @@ dd, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
     margin-bottom: 25px;
     margin-bottom: 2.5rem;
 }
+dd, h1, h2, h3, h4, h5, h6, li, p {
+    max-width: 80rem;
+    max-width: 800px;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arvo', serif;
@@ -129,6 +133,23 @@ dd {
 
 
 /*
+Object: Clearfix
+================
+*/
+
+.clearfix {
+    zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: '';
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+/*
 Object: Nav
 ===========
 */
@@ -168,7 +189,6 @@ Site: Sections
 */
 
 .section {
-    max-width: 80rem;
     margin-top: 100px;
     margin-top: 10rem;
 }
@@ -177,6 +197,11 @@ Site: Sections
     margin-top: 5rem;
 }
 @media all and (min-width: 1000px) {
+    .section {
+        margin-left: 5%;
+    }
+}
+@media all and (min-width: 1100px) {
     .section {
         margin-left: 10%;
     }
@@ -229,6 +254,32 @@ Site: Ingredients
 =================
 */
 
-.ingredients .detail {
+.ingredient .detail {
     display: block;
+}
+@media all and (min-width: 900px) {
+    .ingredients {
+        padding-left: 0;
+        list-style: none;
+    }
+    .ingredient {
+        float: left;
+        margin-bottom: 2%;
+        margin-right: 2%;
+        padding: 1%;
+        border: dashed 3px rgb(238, 215, 195);
+        border-radius: 20px;
+        border-radius: 2rem;
+    }
+    .ingredients-5 .ingredient {
+        width: 15%;
+    }
+    .ingredients-6 .ingredient {
+        width: 28%;
+    }
+}
+@media all and (min-width: 1400px) {
+    .ingredients-6 .ingredient {
+        width: 11%;
+    }
 }
