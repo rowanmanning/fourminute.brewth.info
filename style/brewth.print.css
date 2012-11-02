@@ -1,0 +1,39 @@
+
+/*
+Basics: Layout/Style
+====================
+*/
+
+body {
+    background: #fff;
+}
+
+
+/*
+Basics: Typography
+==================
+*/
+
+html {
+    font-size: 47.5%;
+}
+body {
+    color: #222;
+}
+a, a:visited {
+    color: #d47f1c;
+    text-decoration: underline;
+}
+.secondary {
+    color: #666;
+}
+
+
+/*
+Site: Navigation
+================
+*/
+
+.navigation, .top {
+    display: none;
+}
