@@ -189,8 +189,8 @@ Site: Sections
 */
 
 .section {
-    margin-top: 100px;
-    margin-top: 10rem;
+    margin-top: 150px;
+    margin-top: 15rem;
 }
 .section.intro {
     margin-top: 50px;
@@ -222,6 +222,8 @@ Site: Navigation
 
 .navigation {
     max-width: 100%;
+    margin-top: 40px;
+    margin-top: 4rem;
 }
 .navigation .link, .navigation .link:visited, .top, .top:visited {
     margin-bottom: 15px;
