@@ -196,6 +196,13 @@ Site: Sections
     margin-top: 50px;
     margin-top: 5rem;
 }
+.section .heading {
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
+    padding-bottom: 10px;
+    padding-bottom: 1rem;
+    border-bottom: dashed 3px rgb(238, 215, 195);
+}
 @media all and (min-width: 1000px) {
     .section {
         margin-left: 5%;
@@ -259,6 +266,7 @@ Site: Ingredients
 }
 @media all and (min-width: 900px) {
     .ingredients {
+        margin-bottom: 0;
         padding-left: 0;
         list-style: none;
     }
