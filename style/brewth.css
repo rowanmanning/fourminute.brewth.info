@@ -6,7 +6,7 @@ Basics: Layout/Style
 
 body {
     padding: 20px;
-    background: #fcf2e8 url('assets/noise-100-80-5.png') repeat;
+    background: #fcf2e8 url('asset/noise-100-80-5.png') repeat;
 }
 @media all and (min-width: 700px) {
     body {
@@ -278,10 +278,11 @@ Site: Ingredients
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        padding-right: 20px;
-        padding-right: 2rem;
+        padding: 0 20px;
+        padding: 0 2rem;
         margin-bottom: 25px;
         margin-bottom: 2.5rem;
+        border-left: dashed 3px rgb(238, 215, 195);
     }
     .ingredients-5 .ingredient {
         width: 18%;
